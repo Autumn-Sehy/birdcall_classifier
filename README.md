@@ -1,5 +1,6 @@
 # birdcall_classifier
 *This program builds classifiers to distinguish different bird calls, similar to the Merlin app. It supports both CNN and Wav2Vec2 transformer classifiers.*
+*Please note, I'm tweaking the API a tad - I mostly wanted to share it to show that I know how to do it.*
 
 ---
 
