@@ -63,8 +63,9 @@ plotly>=6.2.0
 - Builds a sqlite3 db for bird calls used in the model
 
 ## ABOUT THE MODELS WHEN RUN FROM THE BASE CONFIG
-- The CNN has about an 80% F1 and accuracy
+- The 3-layer CNN has about an 80% F1 and accuracy
 - The WAV2VEC2 has about a 90% F1 and accuracy
 - The CNN uses mel-spectrograms, Wav2Vec2 uses raw audio
+- Both are trained on about 10 seconds per call (with a few thousand calls in total)
 - Wav2Vec2 performs better but takes longer to train
 
