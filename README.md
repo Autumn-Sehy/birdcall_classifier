@@ -29,29 +29,29 @@ pip install -r requirements.txt
 ```
 Here is the full list of req's:
 
-# Core ML & audio processing
+Core ML & audio processing
 torch>=2.7.0
 torchaudio>=2.7.0
 transformers>=4.51.0
 librosa>=0.11.0
 scikit-learn>=1.6.0
 
-# Data handling & utilities
+Data handling & utilities
 numpy>=2.2.0
 pandas>=2.2.0
 requests>=2.32.0
 tqdm>=4.67.0
 
-# Visualization (for training results)
+Visualization (for training results)
 matplotlib>=3.10.0
 seaborn>=0.13.0
 
-# FastAPI & web server (for the API)
+FastAPI & web server (for the API)
 fastapi>=0.104.0
 uvicorn>=0.24.0
 python-multipart>=0.0.6
 
-# Optional: more viz
+Optional: more viz
 plotly>=6.2.0
 
 
